@@ -1,6 +1,6 @@
 //
 //  CoreDataManager.swift
-//  HelloCoreData
+//  MovieListCoreData
 //
 //  Created by Fauad Anwar on 07/03/23.
 //
@@ -26,6 +26,16 @@ class CoreDataManager {
             return try persistentContainer.viewContext.fetch(fetchRequest)
         } catch {
             return []
+        }
+    }
+    
+    func updateMovie()  {
+        do {
+            try persistentContainer.viewContext.save()
+
+        } catch  {
+            persistentContainer.viewContext.rollback()
+            print("Failed to update movie \(error.localizedDescription)")
         }
     }
     

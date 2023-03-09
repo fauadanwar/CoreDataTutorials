@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B443D00329B9D5C000F38A2E /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B443D00229B9D5C000F38A2E /* MovieDetail.swift */; };
 		B49919C529B71A8A00AD75F6 /* HelloCoreDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49919C429B71A8A00AD75F6 /* HelloCoreDataApp.swift */; };
 		B49919C729B71A8A00AD75F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49919C629B71A8A00AD75F6 /* ContentView.swift */; };
 		B49919C929B71A8C00AD75F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B49919C829B71A8C00AD75F6 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B443D00229B9D5C000F38A2E /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
 		B49919C129B71A8A00AD75F6 /* MovieListCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieListCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B49919C429B71A8A00AD75F6 /* HelloCoreDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloCoreDataApp.swift; sourceTree = "<group>"; };
 		B49919C629B71A8A00AD75F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				B49919D529B71E4B00AD75F6 /* Mannagers */,
 				B49919C429B71A8A00AD75F6 /* HelloCoreDataApp.swift */,
 				B49919C629B71A8A00AD75F6 /* ContentView.swift */,
+				B443D00229B9D5C000F38A2E /* MovieDetail.swift */,
 				B49919C829B71A8C00AD75F6 /* Assets.xcassets */,
 				B49919D229B71B1500AD75F6 /* Model.xcdatamodeld */,
 				B49919CA29B71A8C00AD75F6 /* Preview Content */,
@@ -153,6 +156,7 @@
 			files = (
 				B49919C729B71A8A00AD75F6 /* ContentView.swift in Sources */,
 				B49919C529B71A8A00AD75F6 /* HelloCoreDataApp.swift in Sources */,
+				B443D00329B9D5C000F38A2E /* MovieDetail.swift in Sources */,
 				B49919D729B71E6400AD75F6 /* CoreDataManager.swift in Sources */,
 				B49919D429B71B1500AD75F6 /* Model.xcdatamodeld in Sources */,
 			);
@@ -282,7 +286,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HelloCoreData/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MovieListCoreData/Preview Content\"";
 				DEVELOPMENT_TEAM = 93FK67534U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -311,7 +315,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HelloCoreData/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MovieListCoreData/Preview Content\"";
 				DEVELOPMENT_TEAM = 93FK67534U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
